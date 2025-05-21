@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  fastapi:
+    build: .
+    container_name: isheero-fastapi
+    command: fastapi dev main.py --host 127.0.0.1 --port 8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/code
+
+  streamlit:
+    build: .
+    container_name: isheero-streamlit
+    command: streamlit run ui/web_interface.py --server.address=127.0.0.1 --server.port=4600
+    ports:
+      - "4600:4600"
+    volumes:
+      - .:/code

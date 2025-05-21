@@ -1,0 +1,32 @@
+[
+    {
+        "image": "811430.jpg",
+        "objects_detected": [],
+        "annotation": "Aucun objet d\u00e9tect\u00e9, image probablement vide."
+    },
+    {
+        "image": "image1170x530cropped.jpg",
+        "objects_detected": [
+            "person",
+            "person",
+            "flood",
+            "person",
+            "person",
+            "flood",
+            "flood",
+            "flood",
+            "person",
+            "person",
+            "flood",
+            "flood",
+            "flood",
+            "person",
+            "person",
+            "flood",
+            "person",
+            "flood",
+            "person"
+        ],
+        "annotation": "Plusieurs personnes traversant une zone inond\u00e9e"
+    }
+]

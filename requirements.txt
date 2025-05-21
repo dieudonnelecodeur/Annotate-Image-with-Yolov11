@@ -1,0 +1,17 @@
+pandas
+pillow
+numpy
+matplotlib
+openai
+seaborn
+tensorflow
+opencv-python
+opencv-python-headless
+ultralytics
+uvicorn[standard]
+gunicorn
+fastapi[standard]
+loguru
+roboflow
+streamlit
+streamlit-lottie
